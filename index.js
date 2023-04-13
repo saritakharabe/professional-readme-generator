@@ -46,6 +46,11 @@ const questions = ([
     message: "Instructions for usage:",
   },
   {
+    type: 'input',
+    message: "If you've got a screenshot, provide the path to that here.",
+    name: 'screenshotPath',
+},
+  {
     type: "confirm",
     name: "confirmLicenses",
     message: "Would you like to include a license?",

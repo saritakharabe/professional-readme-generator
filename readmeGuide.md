@@ -14,19 +14,19 @@
     * [Tests](#tests)
     * [Questions](#questions)
 
-  ### Installation 
+  ## Installation 
       he user should clone the repository from GitHub and download Node. This application also requires a file system and inquirer module.You need to install dependencies for this application
     
-  ### Contribution 
+  ## Contribution 
       N/A
 
-  ### Tests
+  ## Tests
       npm test
 
-  ### License 
+  ## License 
   This application is covered under the https://lbesson.mit-license.org/license.
 
-  ### Questions
+  ## Questions
       Have questions about this project?  
       Email: saritakharabe16@gmail.com
       GitHub: https://github.com/saritakharabe  
