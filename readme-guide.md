@@ -6,17 +6,20 @@
       This application was created to generate a high-quality, professional README depending on a series of questions a user answers in their command line using Node.js
 
   ## Table of Content
-    * [Installation](#installation)
-    * [Description](#description)
-    * [Contribution](#contribution)
-    * [Usage](#usage)
-    * [License](#licenses)
-    * [Tests](#tests)
-    * [Questions](#questions)
+    - [Installation](#installation)
+    - [Description](#description)
+    - [Contribution](#contribution)
+    - [Usage](#usage)
+    - [License](#licenses)
+    - [Tests](#tests)
+    - [Questions](#questions)
 
   ## Installation 
-      he user should clone the repository from GitHub and download Node. This application also requires a file system and inquirer module.You need to install dependencies for this application
-    
+      The user should clone the repository from GitHub and download Node. This application also requires a file system and inquirer module.You need to install dependencies for this application
+  
+  ## Usage 
+      ![project screenshot]() 
+         
   ## Contribution 
       N/A
 
@@ -29,4 +32,4 @@
   ## Questions
       Have questions about this project?  
       Email: saritakharabe16@gmail.com
-      GitHub: https://github.com/saritakharabe  
+      GitHub: https://github.com/saritakharabe 
