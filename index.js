@@ -74,7 +74,7 @@ function init() {
     inquirer.prompt(questions)
         .then((data) => {
           const generateReadme = generatorMarkdown(data);
-            fs.writeFile("readme-guide.md", generateReadme, (error) =>{
+            fs.writeFile("readmeguide.md", generateReadme, (error) =>{
                 error? console.error(error): console.log("Your README is successfully created");
             } )
     })

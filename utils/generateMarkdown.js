@@ -25,39 +25,39 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ![Github licence](http://img.shields.io/badge/license-${data.licenses}-blue.svg)
+![Github licence](http://img.shields.io/badge/license-${data.licenses}-blue.svg)
 
-  ## Description 
-      ${data.description}
+## Description 
+    ${data.description}
 
-  ## Table of Content
-    - [Installation](#installation)
-    - [Description](#description)
-    - [Contribution](#contribution)
-    - [Usage](#usage)
-    - [License](#licenses)
-    - [Tests](#tests)
-    - [Questions](#questions)
+## Table of Content
+  - [Installation](#installation)
+  - [Description](#description)
+  - [Contribution](#contribution)
+  - [Usage](#usage)
+  - [License](#licenses)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
-  ## Installation 
-      ${data.installation}
-  
-  ## Usage 
-      ![project screenshot](${data.screenshotPath}) 
-         
-  ## Contribution 
-      ${data.contribution}
+## Installation 
+    ${data.installation}
 
-  ## Tests
-      ${data.tests}
+## Usage 
+    ![project screenshot](${data.screenshotPath}) 
+        
+## Contribution 
+    ${data.contribution}
 
-  ## License 
-  This application is covered under the ${renderLicenseLink(data.licenses)}license.
+## Tests
+    ${data.tests}
 
-  ## Questions
-      Have questions about this project?  
-      Email: ${data.email}
-      GitHub: https://github.com/${data.github}  
+## License 
+This application is covered under the ${renderLicenseLink(data.licenses)}license.
+
+## Questions
+    Have questions about this project?  
+    Email: ${data.email}
+    GitHub: https://github.com/${data.github}  
 `;
 }
 
