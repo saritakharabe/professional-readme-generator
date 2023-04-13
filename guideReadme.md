@@ -14,12 +14,11 @@
     - [Tests](#tests)
     - [Questions](#questions)
 
-
   ## Installation 
-       The user should clone the repository from GitHub and download Node. This application also requires a file system and inquirer module.You need to install dependencies for this application         
+      The user should clone the repository from GitHub and download Node. This application also requires a file system and inquirer module.You need to install dependencies for this application 
     
   ## Contribution 
-      N/A
+          N/A
 
   ## Tests
       npm test
@@ -30,4 +29,4 @@
   ## Questions
       Have questions about this project?  
       Email: saritakharabe16@gmail.com
-      GitHub: https://github.com/saritakharabe  
+      GitHub: https://github.com/sairtakharabe  
