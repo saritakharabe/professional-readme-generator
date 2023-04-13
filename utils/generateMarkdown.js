@@ -45,13 +45,13 @@ function generateMarkdown(data) {
   ### Contribution 
       ${data.contribution}
 
-  ## Tests
+  ### Tests
       ${data.tests}
 
-  ## License 
+  ### License 
   This application is covered under the ${renderLicenseLink(data.licenses)}license.
 
-  ## Questions
+  ### Questions
       Have questions about this project?  
       Email: ${data.email}
       GitHub: https://github.com/${data.github}  
