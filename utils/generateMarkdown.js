@@ -24,22 +24,23 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  ![Github licence](http://img.shields.io/badge/license-${data.license}-blue.svg)
+
+  ![Github licence](http://img.shields.io/badge/license-${data.licenses}-blue.svg)
 
   ## Description 
       ${data.description}
 
-  # Table of Content
-    * [Installation](#installation)
-    * [Description](#description)
-    * [Contribution](#contribution)
-    * [Usage](#usage)
-    * [License](#licenses)
-    * [Tests](#tests)
-    * [Questions](#questions)
+  ## Table of Content
+    - [Installation](#installation)
+    - [Description](#description)
+    - [Contribution](#contribution)
+    - [Usage](#usage)
+    - [License](#licenses)
+    - [Tests](#tests)
+    - [Questions](#questions)
 
 
-  # Installation 
+  ## Installation 
       ${data.installation}
     
   ## Contribution 
@@ -48,7 +49,7 @@ function generateMarkdown(data) {
   ## Tests
       ${data.tests}
 
-  # License 
+  ## License 
   This application is covered under the ${renderLicenseLink(data.licenses)}license.
 
   ## Questions
