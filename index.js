@@ -64,13 +64,12 @@ const questions = ([
 
 ]);
 
-
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
         .then((data) => {
           const generateReadme = generatorMarkdown(data);
-            fs.writeFile("README.md", generateReadme, (error) =>{
+            fs.writeFile("guideReadme.md", generateReadme, (error) =>{
                 error? console.error(error): console.log("Your README is successfully created");
             } )
     })
